@@ -1,0 +1,122 @@
+.container {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  position: relative;
+}
+
+#contact {
+  background: #f9f9f9;
+  width: 50%;
+  padding: 25px;
+  margin: 150px 50px;
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4d2cc4;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+/* home css */
+
+.skewed-bg .content {
+  text-align: center;
+}
+
+.skewed-bg .content .title {
+  padding-top: 100px;
+  font-weight: normal;
+}
+
+.skewed-bg .content .text {
+  width: 60%;
+  margin: 25px auto;
+  color: #ccfff2;
+}
+.body {
+  width: 100%;
+  margin: 0;
+  background: #222;
+  color: #fff;
+}
+.footer {
+  padding-top: 300px;
+}
+
+.footer .credits {
+  text-align: center;
+  color: #666;
+}
+
+.footer .credits .link {
+  color: #00b285;
+  text-decoration: none;
+}
